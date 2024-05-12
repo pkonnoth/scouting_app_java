@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2eb90890-cfac-4469-abde-3fed349502ec" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/masterprojectcsa/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/masterprojectcsa/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/masterprojectcsa/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/masterprojectcsa/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/masterprojectcsa/ScoutingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/masterprojectcsa/ScoutingApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/masterprojectcsa/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/masterprojectcsa/Style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/masterprojectcsa/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/masterprojectcsa/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,35 +19,85 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2fHtTUb8Jt5qIjqWH5VQQKgmPGn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScoutingApp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/pettruskonnoth/IdeaProjects/MasterProjectCSA/lib&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.29425287&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/com/example/masterprojectcsa" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ScoutingApp" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.masterprojectcsa.ScoutingApp" />
+      <module name="MasterProjectCSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-a81d5c7c" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,7 +106,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713469838749</updated>
-      <workItem from="1713469839792" duration="1000" />
+      <workItem from="1713469839792" duration="613000" />
+      <workItem from="1713714681545" duration="721000" />
+      <workItem from="1713812011848" duration="68000" />
+      <workItem from="1713898703545" duration="1200000" />
+      <workItem from="1714071653642" duration="3030000" />
+      <workItem from="1714143777362" duration="929000" />
+      <workItem from="1714415886321" duration="3309000" />
+      <workItem from="1714430069591" duration="1747000" />
+      <workItem from="1714502571768" duration="6152000" />
+      <workItem from="1714675164851" duration="4363000" />
+      <workItem from="1715366325340" duration="2174000" />
+      <workItem from="1715368510650" duration="8491000" />
+      <workItem from="1715544280247" duration="9439000" />
     </task>
     <servers />
   </component>

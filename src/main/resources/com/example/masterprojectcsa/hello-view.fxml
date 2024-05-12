@@ -1,16 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.masterprojectcsa.HelloController">
-  <padding>
-    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-  </padding>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-  <Label fx:id="welcomeText"/>
-  <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<AnchorPane fx:id="root" focusTraversable="true" onMouseClicked="#handleMouseClicked" prefHeight="503.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.masterprojectcsa.Controller">
+    <MenuBar useSystemMenuBar="true">
+        <Menu text="File">
+            <MenuItem fx:id="connect" onAction="#onConnectClick" text="Connect" />
+            <MenuItem fx:id="exit" onAction="#handleExitAction" text="Exit" />
+        </Menu>
+        <Menu text="Help">
+            <MenuItem text="About" />
+        </Menu>
+    </MenuBar>
+    <Label fx:id="title" layoutX="250.0" layoutY="27.0" text="FRC Scouting App" AnchorPane.leftAnchor="250.0" AnchorPane.topAnchor="27.0">
+        <font>
+            <Font name="Arial" size="24.0" />
+        </font>
+    </Label>
+    <Label layoutX="50.0" layoutY="80.0" text="Team Number:" />
+    <TextField fx:id="teamNumberField" layoutX="160.0" layoutY="76.0" />
+    <Label layoutX="50.0" layoutY="120.0" text="Autonomous Points:" />
+    <TextField fx:id="autonomousPointsField" layoutX="160.0" layoutY="120.0" />
+    <Label layoutX="50.0" layoutY="160.0" text="Amp:" />
+    <TextField fx:id="ampField" layoutX="160.0" layoutY="157.0" />
+    <Label layoutX="50.0" layoutY="200.0" text="Cycles:" />
+    <TextField fx:id="cyclesField" layoutX="160.0" layoutY="196.0" />
+    <Label layoutX="451.0" layoutY="112.0" text="Description:" />
+    <Label layoutX="49.0" layoutY="252.0" text="Autonomous Status:" />
+    <CheckBox fx:id="autonomousStatusCheckBox" layoutX="186.0" layoutY="252.0" text="Yes" />
+    <Label layoutX="48.0" layoutY="303.0" text="Match Number:" />
+    <TextField fx:id="matchNumberField" layoutX="160.0" layoutY="299.0" />
+    <Button fx:id="createButton" layoutX="50.0" layoutY="380.0" onAction="#onCreateButtonClicked" text="Create" />
+    <Button fx:id="updateButton" layoutX="200.0" layoutY="380.0" onAction="#onUpdateButtonClicked" text="Update" />
+    <Button fx:id="deleteButton" layoutX="350.0" layoutY="380.0" onAction="#onDeleteButtonClicked" text="Delete" />
+    <TextArea fx:id="descriptionField" layoutX="384.0" layoutY="134.0" prefHeight="73.0" prefWidth="200.0" promptText="Write any side notes and comments of the teams performance" wrapText="true" />
+    <!-- Navigation Buttons -->
+    <Button fx:id="FirstButton" layoutX="449.0" layoutY="429.0" onAction="#handleFirst" text="First" />
+    <Button fx:id="doublePrevious" layoutX="453.0" layoutY="393.0" onAction="#handleDoublePrevious" text="&lt;&lt;" />
+    <Button fx:id="previous" layoutX="457.0" layoutY="354.0" onAction="#handlePrevious" text="&lt;" />
+    <Button fx:id="next" layoutX="457.0" layoutY="312.0" onAction="#handleNext" text="&gt;" />
+    <Button fx:id="doubleNext" layoutX="453.0" layoutY="270.0" onAction="#handleDoubleNext" text="&gt;&gt;" />
+    <Button fx:id="LastButton" layoutX="449.0" layoutY="222.0" onAction="#handleLast" text="Last" />
+
+</AnchorPane>
